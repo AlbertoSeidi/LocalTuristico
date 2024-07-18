@@ -1,0 +1,159 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --background-default: #f5f4f0;
+  --border-primary: #d9d9d9;
+
+  --text-primary: #1b1b1b;
+  --text-secondary: #333333;
+  --text-tertiary: #696969;
+  --text-headline: #e1624f;
+
+  --accent-blue: #0c51a7;
+  --accent-orange: #e95e10;
+  --accent-pink: #e5245e;
+  --accent-purple: #591b98;
+
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+  font-family: "Open Sans", sans-serif;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#page {
+  padding: 9.2rem 8rem 4.8rem;
+  width: 112rem;
+}
+
+header img {
+  height: 66rem;
+}
+
+header figure {
+  margin: 4rem 0;
+}
+
+header figcaption {
+  padding-top: 2.4rem;
+  text-align: center;
+  font-style: italic;
+}
+
+h1 {
+  color: var(--text-primary);
+  font-size: 3.6rem;
+  font-weight: 700;
+}
+h2 {
+  font-size: 3.2rem;
+  font-weight: 700;
+}
+h3 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 2.8rem;
+}
+
+.headline {
+  color: var(--text-headline);
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 0.8rem;
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  margin: 36px 0;
+  background-color: var(--border-primary);
+}
+
+.content {
+  padding: 6.4rem 0;
+}
+
+#list img {
+  height: 35rem;
+  padding-bottom: 2rem;
+}
+
+#list h3 {
+  padding-bottom: 0.4rem;
+}
+
+#list p {
+  color: var(--text-secondary);
+  font-weight: 400;
+}
+#list ul {
+  padding-bottom: 4.8rem;
+  font-weight: 700;
+}
+
+#list ul p {
+  font-weight: 700;
+}
+
+#list ul:last-child {
+  padding-bottom: 0;
+}
+
+#list ul li {
+  margin-left: 2rem;
+}
+
+#list ul li::marker {
+  color: var(--text-secondary);
+}
+
+.history {
+  color: var(--accent-blue);
+}
+
+.family {
+  color: var(--accent-pink);
+}
+
+.budget {
+  color: var(--accent-orange);
+}
+
+.couples {
+  color: var(--accent-purple);
+}
+
+.content-card {
+  padding-bottom: 3rem;
+}
+
+.description {
+  font-weight: 400;
+  text-align: center;
+  justify-content: center;
+  padding-bottom: 6.1rem;
+  font-size: 1.6rem;
+}
+
+footer {
+  text-align: center;
+}
+
+footer img {
+  width: 1.6rem;
+  height: 1.6rem;
+}
